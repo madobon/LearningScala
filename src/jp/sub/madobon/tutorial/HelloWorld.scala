@@ -3,7 +3,7 @@ package jp.sub.madobon.tutorial
 /**
  * @author madobon
  */
-object Tutorial {
+object HelloWorld {
   def main(args: Array[String]) {
     println("Hello World!")
   }
