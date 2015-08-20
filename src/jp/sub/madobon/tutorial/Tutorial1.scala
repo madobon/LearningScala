@@ -16,6 +16,9 @@ object Tutorial1 {
     println(calc.add(3, 2, 1))
     println(calc.brand)
     println(calc.brandef)
+    
+    val calc2 = new Calculator2("HOGE")
+    println(calc2.color)
   }
 }
 
@@ -34,4 +37,17 @@ class Calculator {
    * m+n+pの計算結果を返却する関数
    */
   def add(m: Int, n: Int, p: Int): Int = m + n + p
+}
+
+class Calculator2(brand: String) {
+  /**
+   * コンストラクター
+   */
+  val color: String = if (brand == "TI") {
+    "blue"
+  } else if (brand == "HP") {
+    "black"
+  } else {
+    "white"
+  }
 }
