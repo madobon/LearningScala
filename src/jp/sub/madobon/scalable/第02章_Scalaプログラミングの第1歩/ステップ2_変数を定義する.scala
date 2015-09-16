@@ -23,7 +23,7 @@ class ステップ2_変数を定義する {
     // String value = "hogehoge"
     // [Scala] の場合
     // var value: String = "hogehoge"
-    
+
     // ScalaのStringはJavaのString
     var msg: java.lang.String = "This is String!!"
     var msg2: String = "This is String!!" // 単純名で参照できる
