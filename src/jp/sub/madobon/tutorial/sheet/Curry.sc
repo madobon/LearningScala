@@ -1,4 +1,4 @@
-object Test {
+object Curry {
 
   var add = (x: Int, y: Int, z: Int) => println(s"${x} + ${y} + ${z} = ${x + y + z}"): Unit
                                                   //> add  : (Int, Int, Int) => Unit = <function3>
